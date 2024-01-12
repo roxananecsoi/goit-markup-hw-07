@@ -546,6 +546,7 @@
                 name="user-name"
                 id="user-name"
                 class="input-name"
+                required
               />
               <svg width="18" height="24" class="modal-name-svg">
                 <use href="./images/icons.svg#modal-person"></use>
@@ -555,7 +556,13 @@
           <div class="modal-form-div">
             <label class="name-label" for="phone">Phone</label>
             <div class="label-div">
-              <input type="tel" name="phone" id="phone" class="input-name" />
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                class="input-name"
+                required
+              />
               <svg width="18" height="24" class="modal-name-svg">
                 <use href="./images/icons.svg#modal-phone"></use>
               </svg>
@@ -564,7 +571,13 @@
           <div class="modal-form-div">
             <label class="name-label" for="email">Email</label>
             <div class="label-div">
-              <input type="email" name="email" id="email" class="input-name" />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="input-name"
+                required
+              />
               <svg width="18" height="24" class="modal-name-svg">
                 <use href="./images/icons.svg#modal-email"></use>
               </svg>
@@ -577,6 +590,7 @@
               name="user-comment"
               placeholder="Text input"
               class="textarea-comment"
+              required
             ></textarea>
           </div>
           <div class="checkbox-div">
@@ -586,6 +600,7 @@
               value="true"
               name="user-privacy"
               class="checkbox-input visually-hidden"
+              required
             />
             <label for="user-privacy" class="checkbox-label">
               <span class="checkbox-span">
@@ -601,6 +616,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
