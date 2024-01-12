@@ -1,2 +1,2 @@
-# goit-markup-hw-06
-Tema 6
+# goit-markup-hw-07
+Tema 7
