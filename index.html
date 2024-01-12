@@ -32,6 +32,29 @@
           <a class="logo link" href="./index.html">
             Web <span class="logo-studio-dark">Studio</span>
           </a>
+
+          <!-- MOBILE MENU OPEN -->
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+
+          <!-- MOBILE MENU CLOSE -->
           <ul class="first-section-list list">
             <li>
               <a class="nav-list link nav-list-active" href="./index.html"
@@ -174,8 +197,10 @@
             <li class="fourth-section-list-item">
               <img
                 src="./images/markguerrero.jpg"
+                srcset="./images/markguerrero@2x.jpg 2x"
                 alt="Barbat brunet cu barba si mustata"
                 width="264"
+                height="260"
               />
               <div class="fourth-section-div">
                 <h3 class="fourth-section-header">Mark Guerrero</h3>
@@ -231,8 +256,10 @@
             <li class="fourth-section-list-item">
               <img
                 src="./images/tomford.jpg"
+                srcset="./images/tomford@2x.jpg 2x"
                 alt="Barbat saten razand"
                 width="264"
+                height="260"
               />
               <div class="fourth-section-div">
                 <h3 class="fourth-section-header">Tom Ford</h3>
@@ -289,8 +316,10 @@
             <li class="fourth-section-list-item">
               <img
                 src="./images/camilagarcia.jpg"
+                srcset="./images/camilagarcia@2x.jpg 2x"
                 alt="Femeie cu parul saten lung"
                 width="264"
+                height="260"
               />
               <div class="fourth-section-div">
                 <h3 class="fourth-section-header">Camila Garcia</h3>
@@ -347,8 +376,10 @@
             <li class="fourth-section-list-item">
               <img
                 src="./images/danielwilson.jpg"
+                srcset="./images/danielwilson@2x.jpg 2x"
                 alt="Barbat brunet zambind"
                 width="264"
+                height="260"
               />
               <div class="fourth-section-div">
                 <h3 class="fourth-section-header">Daniel Wilson</h3>
@@ -614,6 +645,78 @@
           </div>
           <button type="submit" class="modal-button-send">Send</button>
         </form>
+      </div>
+    </div>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="./index.html" class="mobile-link active">Studio</a></li>
+        <li><a href="./portfolio.html" class="mobile-link">Portfolio</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+      </ul>
+      <div class="mobile-div">
+        <address class="mobile-address">
+          <ul class="mobile-list">
+            <li>
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-addres-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:11(000)1111111" class="mobile-addres-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="fourth-section-social-icons-list">
+          <li class="fourth-section-icon-item">
+            <a class="fourth-section-icon" href="">
+              <svg class="fourth-section-icon-media" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="fourth-section-icon-item">
+            <a class="fourth-section-icon" href="">
+              <svg class="fourth-section-icon-media" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="fourth-section-icon-item">
+            <a class="fourth-section-icon" href="">
+              <svg class="fourth-section-icon-media" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="fourth-section-icon-item">
+            <a class="fourth-section-icon" href="">
+              <svg class="fourth-section-icon-media" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     <script src="./js/mobile-menu.js"></script>
